@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#fff">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:orientation="horizontal"
+        android:rowCount="3">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grid"
+            android:background="#cc0033"
+            android:textSize="16sp"
+            android:layout_margin="15dp"
+            android:textColor="#ffffff"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grid"
+            android:background="#cc0033"
+            android:textSize="16sp"
+            android:layout_margin="15dp"
+            android:textColor="#ffffff"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="125dp"
+            android:text="Grid"
+            android:background="#cc0033"
+            android:textSize="16sp"
+            android:layout_margin="15dp"
+            android:textColor="#ffffff"
+            android:layout_rowSpan="2"/>
+        <Button
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:text="Grid"
+            android:background="#cc0033"
+            android:textSize="16sp"
+            android:layout_margin="15dp"
+            android:layout_columnSpan="2"
+            android:textColor="#ffffff"/>
+
+
+
+    </GridLayout>
+</LinearLayout>

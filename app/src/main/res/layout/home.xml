@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grid"
+        android:background="#cc0033"
+        android:textSize="16sp"
+        android:layout_margin="15dp"
+        android:id="@+id/grid_btn"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gestures"
+        android:background="#cc0033"
+        android:textSize="16sp"
+        android:layout_margin="15dp"
+        android:id="@+id/gestures_btn"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragment"
+        android:background="#cc0033"
+        android:textSize="16sp"
+        android:layout_margin="15dp"
+        android:id="@+id/fragment_btn"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Web View"
+        android:background="#cc0033"
+        android:textSize="16sp"
+        android:layout_margin="15dp"
+        android:id="@+id/web_view_btn"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List View"
+        android:background="#cc0033"
+        android:textSize="16sp"
+        android:layout_margin="15dp"
+        android:id="@+id/list_view_btn"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Image Capture"
+        android:background="#cc0033"
+        android:textSize="16sp"
+        android:layout_margin="15dp"
+        android:id="@+id/image_capture_btn"
+        android:textColor="#ffffff"/>
+
+</LinearLayout>
